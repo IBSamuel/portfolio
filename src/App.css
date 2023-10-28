@@ -1,0 +1,28 @@
+*{
+  /* font-family: 'DM Serif Display', serif; */
+font-family: 'Raleway', sans-serif;
+}
+
+body{
+  background: #090E16;
+}
+.colorBlue{
+  background-color: rgba(123, 74, 226, 0.05);
+  ;
+}
+.colorBlueText{
+  color: #7B4AE2;
+  ;
+}
+.borderColor{
+  border: 1px solid #7B4AE2;
+  ;
+}
+.blue{
+  background: rgba(123, 74, 226, 0.10);
+  ;
+}
+.borderBottomColor{
+  border-bottom: 1px solid #7B4AE2;
+  ;
+}
