@@ -1,0 +1,23 @@
+.bulehover{
+    color: white;
+  }
+  .buleHover:hover{
+    background-color: rgba(123, 74, 226, 1);
+    border-radius: 10px;
+    font-weight: bold;
+  }
+.logoSize{
+  width: 50px;
+}
+
+.navbar {
+  /* Your default navbar styles */
+  transition: background-color 0.3s ease-in-out;
+  position: fixed;
+  width: 95%;
+  z-index: 10000;
+}
+
+.navbar.scrolled {
+  background-color: #090E16; /* Adjust this color as needed */
+}

@@ -3,7 +3,7 @@
 font-family: 'Raleway', sans-serif;
 }
 
-body{
+.body{
   background: #090E16;
 }
 .colorBlue{
@@ -25,4 +25,32 @@ body{
 .borderBottomColor{
   border-bottom: 1px solid #7B4AE2;
   ;
+}
+.specificWidth{
+  width: 50px;
+}
+/* Define the width and color for the scrollbar track */
+::-webkit-scrollbar {
+  width: 5px; /* You can change this to set the width */
+}
+
+/* Define the color of the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background-color: #7B4AE2; /* Change this to set the scrollbar color */
+  border-radius: 5px; /* You can add border-radius for a rounded handle */
+}
+
+/* Define the color of the scrollbar track */
+::-webkit-scrollbar-track {
+  background: rgba(123, 74, 226, 0.10); /* Change this to set the scrollbar track color */
+}
+
+/* Define the color of the scrollbar buttons/arrow (optional) */
+::-webkit-scrollbar-button {
+  background: rgba(123, 74, 226, 0.10);
+}
+
+/* Optionally, you can also style the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: #f1f1f1;
 }
